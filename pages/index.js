@@ -9,7 +9,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>Victor Crest 26 London 80K Followers 803K Likes 1.4K Photos</main>
+      <main className="text-base">
+        Victor Crest 26 London 80K Followers 803K Likes 1.4K Photos
+      </main>
 
       <footer>
         <div>

@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bg-images {
+    background-image: url(/bg-pattern-top.svg), url(/bg-pattern-bottom.svg);
+    @apply bg-dark-cyan;
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom 50vh right 50vw, top 50vh left 50vw;
+  }
+}
