@@ -9,4 +9,8 @@
     background-repeat: no-repeat, no-repeat;
     background-position: bottom 50vh right 50vw, top 50vh left 50vw;
   }
+
+  a {
+    @apply text-blue-700;
+  }
 }

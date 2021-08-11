@@ -5,9 +5,6 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      fontSize: {
-        base: ["1.125rem", { lineHeight: "1.75rem" }], // 18px
-      },
       fontFamily: {
         sans: ["Kumbh Sans"],
       },
@@ -20,6 +17,12 @@ module.exports = {
           200: "hsl(227, 10%, 46%)",
         },
       },
+      backgroundImage: () => ({
+        "card-pattern": "url('/bg-pattern-card.svg')",
+      }),
+    },
+    screens: {
+      xs: "375px",
     },
   },
   variants: {
